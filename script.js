@@ -165,6 +165,7 @@ function toggleNightMode(e) {
     body.style.color = "black";
     toggleLight.style.display = "block";
     toggleNight.style.display = "none";
+    filterInput.style.color = "#333";
   } else {
     body.style.backgroundColor = "black";
     body.style.color = "white";
